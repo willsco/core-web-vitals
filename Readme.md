@@ -5,6 +5,8 @@ This modules allows you modify the HTML, Javascript, CSS, update the position, o
 
 By: Hidro Le.  Website: [https://www.solutiontutorials.com](https://www.solutiontutorials.com)
 
+- 
+
 #More packages:
 - Graylog: https://github.com/hieuhidro/magento2-graylog/
 - Checkout my critical service: https://store.solutiontutorials.com/critical-css-service.html
@@ -37,6 +39,7 @@ By: Hidro Le.  Website: [https://www.solutiontutorials.com](https://www.solution
 
 ### Type 2: Composer
 
+- https://packagist.org/packages/hidro/core-web-vitals
 - Make the module available in a composer repository for example:
     - public repository `packagist.org`
     - public github repository as vcs
