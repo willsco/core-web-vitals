@@ -59,7 +59,7 @@ class Data extends AbstractHelper
 
     public function listOfMoveFooterCSS()
     {
-        return array_map('trim', explode(',', $this->getConfig('css/move_footer_files')));
+        return array_map('trim', explode(',', $this->getConfig('css/move_footer_files') ?? ""));
     }
 
     public function isMinifyInlineCSS()
@@ -89,7 +89,7 @@ class Data extends AbstractHelper
 
     public function getServerPushCSSFiles()
     {
-        return array_map('trim', explode(',', $this->getConfig('css/server_push_files')));
+        return array_map('trim', explode(',', $this->getConfig('css/server_push_files') ?? ""));
     }
 
     public function getDeferCSSMode()
@@ -104,7 +104,7 @@ class Data extends AbstractHelper
 
     public function getDeferCSSFiles()
     {
-        return array_map('trim', explode(',', $this->getConfig('css/defer_files')));
+        return array_map('trim', explode(',', $this->getConfig('css/defer_files') ?? ""));
     }
 
     public function isServerPushJS()
@@ -114,7 +114,7 @@ class Data extends AbstractHelper
 
     public function getServerPushJSFiles()
     {
-        return array_map('trim', explode(',', $this->getConfig('js/server_push_files')));
+        return array_map('trim', explode(',', $this->getConfig('js/server_push_files') ?? ""));
     }
 
     public function isDeferRecaptcha()
